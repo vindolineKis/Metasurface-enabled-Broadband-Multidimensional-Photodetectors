@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/guoguo/anaconda3/envs/qiskit/lib/python3.11/site-packages/matplotlib/style/core.py", line 137, in use
+    style = _rc_params_in_file(style)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/guoguo/anaconda3/envs/qiskit/lib/python3.11/site-packages/matplotlib/__init__.py", line 866, in _rc_params_in_file
+    with _open_file_or_url(fname) as fd:
+  File "/home/guoguo/anaconda3/envs/qiskit/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/guoguo/anaconda3/envs/qiskit/lib/python3.11/site-packages/matplotlib/__init__.py", line 843, in _open_file_or_url
+    with open(fname, encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'seaborn-darkgrid'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/guoguo/projects/photoCurrent/photocurrent/plot.py", line 6, in <module>
+    plt.style.use('seaborn-darkgrid')
+  File "/home/guoguo/anaconda3/envs/qiskit/lib/python3.11/site-packages/matplotlib/style/core.py", line 139, in use
+    raise OSError(
+OSError: 'seaborn-darkgrid' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
