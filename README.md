@@ -8,7 +8,7 @@ Please read the README.md before you download and use these codes.
 # LICENSE
 Please use all the content in this repository according to the rules claimed in the LICENSE
 
-# folder detail 
+# Photocurrent
   # data_fitting
   We keep the .py files in this folder. They are  different model tests and some preprocessing of our datasets.
   # datasets
