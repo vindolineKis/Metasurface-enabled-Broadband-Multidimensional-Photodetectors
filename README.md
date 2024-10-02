@@ -1,6 +1,6 @@
 # Metasurface-enabled Broadband Multidimensional Photodetectors 
 
-This is a repository for neural network training for the intelligence detector, all the datasets, the history of model training and verification are included. The work URL is linked to this repository.
+This is a repository for neural network training for the intelligence detector, all the datasets, the history of model training and verification are included. The work [URL](https://www.nature.com/articles/s41467-024-52632-8) is linked to this repository.
 
 
 # README.md
